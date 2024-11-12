@@ -1,0 +1,12 @@
+frontend:
+    path: example-json/client
+    publish: dist
+    scripts:
+        build:
+            - npm run build
+        deploy:
+            - npm install
+    subdomain: green-yawning-wombat
+name: green-yawning-wombat
+region: us-east-1
+yamlVersion: 2
