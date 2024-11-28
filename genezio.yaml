@@ -1,12 +1,3 @@
-backend:
-    language:
-        name: ts
-    path: example-json/server
-    scripts:
-        deploy:
-            - npm install
-        local:
-            - npm install
 frontend:
     path: example-json/client
     publish: dist
@@ -14,11 +5,8 @@ frontend:
         build:
             - npm run build
         deploy:
-            - npm install @genezio-sdk/${{projectName}}@1.0.0-${{stage}}
             - npm install
-    sdk:
-        language: ts
-    subdomain: green-yawning-wombat
-name: green-yawning-wombat
+    subdomain: green-yawning-wombatdsadsa
+name: green-yawning-wombatdsadsa
 region: us-east-1
 yamlVersion: 2
